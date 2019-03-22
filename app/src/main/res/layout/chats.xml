@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".FriendListActivity">-->
+
+
+    <TextView
+        android:id="@+id/usernameTextViewChatListView"
+        android:layout_width="wrap_content"
+        android:layout_height="60px"
+        android:layout_marginStart="60px"
+        android:layout_marginTop="20px"
+        android:layout_toEndOf="@+id/avatarImageViewListViewChatListView"
+        android:text="@string/userName"
+        android:textSize="25px" />
+
+    <TextView
+        android:id="@+id/contentTextViewChatListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200px"
+        android:layout_marginTop="60px"
+        android:layout_marginRight="60px"
+        android:layout_marginEnd="200px"
+        android:gravity="center"
+        android:paddingLeft="50px"
+        android:text="first @string/app_name"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="50px" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatarImageViewListViewChatListView"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="30px"
+        android:layout_width="130px"
+        android:layout_height="130px"
+        android:src="@mipmap/ic_launcher"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatarImageViewListViewChatListView2"
+        android:layout_width="130px"
+        android:layout_height="130px"
+        android:layout_alignRight="@id/contentTextViewChatListView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30px"
+        android:layout_marginRight="30px"
+        android:src="@mipmap/ic_launcher" />
+
+
+</RelativeLayout>

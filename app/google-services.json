@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "142987767776",
+    "firebase_url": "https://facebookmockup-25951.firebaseio.com",
+    "project_id": "facebookmockup-25951",
+    "storage_bucket": "facebookmockup-25951.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142987767776:android:9209c2263da871ff",
+        "android_client_info": {
+          "package_name": "com.example.facebook_mockup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142987767776-ok0pgr2o1hgkfsdf4ffhaumg93il87uf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.facebook_mockup",
+            "certificate_hash": "8ec4ba331a128161db57c2b1046877b4d3da8332"
+          }
+        },
+        {
+          "client_id": "142987767776-vd6grnksnmgrp1fv5bpatp43mushl08l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9Kbh57GCbPg_ZkPqPSJWpPvL_fxWEYQQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142987767776-vd6grnksnmgrp1fv5bpatp43mushl08l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

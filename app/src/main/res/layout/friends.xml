@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".FriendListActivity">-->
+
+
+    <TextView
+        android:id="@+id/usernameTextViewListView"
+        android:layout_width="wrap_content"
+        android:layout_height="60px"
+        android:layout_marginStart="60px"
+        android:layout_marginTop="20px"
+        android:layout_toEndOf="@+id/avatarImageViewListView"
+        android:text="@string/userName"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/nameTextViewListView"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_marginStart="60px"
+        android:layout_marginTop="100px"
+        android:layout_toEndOf="@+id/avatarImageViewListView"
+        android:text="first @string/app_name"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="50px" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatarImageViewListView"
+        android:layout_width="130px"
+        android:layout_height="130px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="30px"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/imageViewActive"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="100px"
+        app:srcCompat="@drawable/on" />
+    <ImageView
+        android:id="@+id/imageViewDeactive"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="100px"
+        app:srcCompat="@drawable/off" />
+
+
+
+</RelativeLayout>

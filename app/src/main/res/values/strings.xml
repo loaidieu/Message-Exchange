@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">facebook_mockup</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="signin">Don\'t have an account?</string>
+    <string name="signIn">Sign In?</string>
+    <string name="SignInPage">Sign In An Account</string>
+    <string name="passwordConfirm">Confirmed password</string>
+    <string name="SignInButton">SignIn</string>
+</resources>
